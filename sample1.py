@@ -7,7 +7,7 @@ from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 import os
 import time
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = "<replace your token>"
 
 if 'uploaded_pdfs' not in st.session_state:
     st.session_state.uploaded_pdfs = []
